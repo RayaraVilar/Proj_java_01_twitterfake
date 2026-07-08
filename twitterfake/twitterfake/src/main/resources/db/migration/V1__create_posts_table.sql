@@ -1,0 +1,6 @@
+CREATE TABLE posts (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    autor VARCHAR(80) NOT NULL,
+    conteudo VARCHAR(280) NOT NULL,
+    criado_em DATETIME NOT NULL
+);
